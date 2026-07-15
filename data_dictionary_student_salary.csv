@@ -1,0 +1,10 @@
+Project,Column,Type,Description,Range_Example
+Student Salary Prediction,Roll_Number,String,Unique student identifier,STU0001 - STU2000
+Student Salary Prediction,Name,String,Student's full name,e.g. Aarav Sharma
+Student Salary Prediction,Communication_Skill,Float,Communication skill rating,1.0 - 10.0
+Student Salary Prediction,Department,Categorical,Academic department,"CSE, ECE, EEE, Mechanical, Civil, IT, AI & DS, Biotech"
+Student Salary Prediction,CGPA,Float,Cumulative Grade Point Average,4.0 - 10.0
+Student Salary Prediction,Projects,Integer,Number of academic/personal projects completed,0 - 10
+Student Salary Prediction,Internships,Integer,Number of internships completed,0 - 5
+Student Salary Prediction,Salary,Integer,Target - Predicted annual salary in Rs.,e.g. 824700
+Student Salary Prediction,Salary_LPA,Float,Salary expressed in Lakhs Per Annum,e.g. 8.25

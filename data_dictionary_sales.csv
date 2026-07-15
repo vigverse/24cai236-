@@ -1,0 +1,8 @@
+Project,Column,Type,Description,Range_Example
+Sales Prediction,Product_ID,String,Unique product identifier,P0001 - P0300
+Sales Prediction,Advertising_Budget,Float,Ad spend on the product (Rs. thousands),2 - 150
+Sales Prediction,Discount,Float,Discount offered on the product (%),0 - 40
+Sales Prediction,Price,Integer,Selling price per unit (Rs.),100 - 3000
+Sales Prediction,Holiday,Categorical,Whether sold during a holiday/festive period,Yes / No
+Sales Prediction,Sales,Integer,Target - Actual units sold,e.g. 657
+Sales Prediction,Predicted_Sales,Integer,Model-predicted units sold,e.g. 645
